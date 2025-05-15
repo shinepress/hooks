@@ -10,8 +10,7 @@
 		"action"
 	],
 	"require": {
-		"php": ">=8.1",
-		"roots/wordpress-no-content": "^6.8"
+		"php": ">=8.1"
 	},
 	"require-dev": {
 		"shinepress/framework": "1.0.0-alpha",
@@ -19,7 +18,8 @@
 		"php-cs-fixer/shim": "^3.0",
 		"phpstan/phpstan": "^2.0",
 		"phpstan/phpstan-strict-rules": "^2.0",
-		"phpunit/phpunit": "^10.0"
+		"phpunit/phpunit": "^10.0",
+		"roots/wordpress-no-content": "^6.3"
 	},
 	"suggest": {
 		"shinepress/framework": "Allows use of attribute based hook registration."
