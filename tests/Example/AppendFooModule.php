@@ -13,8 +13,8 @@ declare(strict_types=1);
 
 namespace ShinePress\Hooks\Tests\Example;
 
-use ShinePress\Hooks\Filter;
 use ShinePress\Framework\Module;
+use ShinePress\Hooks\Filter;
 
 class AppendFooModule extends Module {
 	#[Filter('append', 1)]
