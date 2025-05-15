@@ -13,7 +13,7 @@
 		"php": ">=8.1"
 	},
 	"require-dev": {
-		"shinepress/framework": "1.0.0-alpha",
+		"shinepress/framework": "1.0.0-beta",
 		"shinepress/coding-standard": "dev-main",
 		"php-cs-fixer/shim": "^3.0",
 		"phpstan/phpstan": "^2.0",
