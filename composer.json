@@ -1,0 +1,12 @@
+{
+	"name": "shinepress/hooks",
+	"type": "library",
+	"license": "MIT",
+	"description": "Tools for managing WordPress hooks before and after initialization",
+	"keywords": [
+		"wordpress",
+		"hook",
+		"filter",
+		"action"
+	]
+}
