@@ -17,7 +17,7 @@ use Attribute;
 use Closure;
 use ReflectionException;
 use ReflectionMethod;
-use ShinePress\Framework\MethodAttributeInterface;
+use ShinePress\Framework\Attribute\MethodAttributeInterface;
 use ShinePress\Framework\Module;
 use ValueError;
 
