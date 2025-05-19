@@ -5,14 +5,15 @@ parameters:
 		- tests
 	treatPhpDocTypesAsCertain: false
 	exceptions:
-		checkedExceptionClasses:
-			- 'Throwable'
-		uncheckedExceptionRegexes:
-			- '#^PHPUnit\\#'
-			- '#^SebastianBergmann\\#'
 		check:
 			missingCheckedExceptionInThrows: true
 			tooWideThrowType: true
+		checkedExceptionClasses:
+			- 'RuntimeException'
+		uncheckedExceptionClasses:
+			- 'LogicException'
+		uncheckedExceptionRegexes:
+			- '#^PHPUnit\\#'
 		implicitThrows: false
 	bootstrapFiles:
 		- vendor/roots/wordpress-no-content/wp-includes/plugin.php
