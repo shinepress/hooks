@@ -14,7 +14,7 @@ declare(strict_types=1);
 namespace ShinePress\Hooks\Tests\Attribute;
 
 use PHPUnit\Framework\Attributes\DataProvider;
-use ShinePress\Framework\MethodAttributeInterface;
+use ShinePress\Framework\Attribute\MethodAttributeInterface;
 use ShinePress\Hooks\Hook;
 use ShinePress\Hooks\Tests\TestCase as BaseTestCase;
 
