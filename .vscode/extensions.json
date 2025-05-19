@@ -2,6 +2,7 @@
 	"recommendations": [
 		"devsense.phptools-vscode",
 		"devsense.composer-php-vscode",
-		"github.vscode-github-actions"
+		"github.vscode-github-actions",
+		"sanderronde.phpstan-vscode"
 	]
 }
